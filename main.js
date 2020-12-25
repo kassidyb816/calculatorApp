@@ -9,7 +9,6 @@ class Calculator {
         this.currentOperand = ''
         this.previousOperand = ''
         this.operation = undefined 
-
     }
 
     delete() {
@@ -29,9 +28,9 @@ class Calculator {
     }
 
     updateDisplay() {
+        this.currentOperandTextElement.innerText
 
     }
-
 }
 
 
